@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 130" role="img" aria-labelledby="title">
+  <title id="title">Crown badge</title>
+  <path d="m16 37 25 20L54 18l22 37 24-37 13 39 22-20-12 69H28Z" fill="#8ed0ea" stroke="#111" stroke-linejoin="round" stroke-width="6"/>
+  <path d="M28 106h95v15H28z" fill="#5cadd0" stroke="#111" stroke-linejoin="round" stroke-width="6"/>
+  <circle cx="42" cy="70" r="6" fill="#f5cf33" stroke="#111" stroke-width="3"/>
+  <circle cx="75" cy="72" r="6" fill="#f5cf33" stroke="#111" stroke-width="3"/>
+  <circle cx="108" cy="70" r="6" fill="#f5cf33" stroke="#111" stroke-width="3"/>
+</svg>

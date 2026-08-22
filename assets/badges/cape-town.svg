@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 150" role="img" aria-labelledby="title">
+  <title id="title">Cape Town badge</title>
+  <circle cx="137" cy="34" r="19" fill="#f5cf33" stroke="#111" stroke-width="5"/>
+  <path d="M12 120 57 59l21 21 24-38 54 78Z" fill="#80b7c8" stroke="#111" stroke-linejoin="round" stroke-width="5"/>
+  <path d="m46 96 18-26 14 15m11-19 13-19 29 46" fill="none" stroke="#f8fbfa" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M12 121h156v16H12z" fill="#266b86" stroke="#111" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M24 129c18-8 37 8 55 0s35 8 54 0 22 2 35-3" fill="none" stroke="#f8fbfa" stroke-linecap="round" stroke-width="4"/>
+  <path d="M126 16c5-8 13-8 18 0m-8-4v10" fill="none" stroke="#111" stroke-linecap="round" stroke-width="4"/>
+</svg>

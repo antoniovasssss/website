@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 150" role="img" aria-labelledby="title">
+  <title id="title">Vim badge</title>
+  <path d="M70 10 125 33v44c0 33-22 51-55 63C37 128 15 110 15 77V33Z" fill="#f9faf7" stroke="#111" stroke-linejoin="round" stroke-width="6"/>
+  <path d="m70 23 40 17v36c0 25-16 39-40 51-24-12-40-26-40-51V40Z" fill="#4e9b69"/>
+  <path d="M31 47 57 103 92 34" fill="none" stroke="#111" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
+  <text x="70" y="118" fill="#111" font-family="Georgia, serif" font-size="29" font-style="italic" font-weight="700" text-anchor="middle">vim</text>
+</svg>

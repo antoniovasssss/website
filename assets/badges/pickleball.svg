@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 150" role="img" aria-labelledby="title">
+  <title id="title">Pickleball badge</title>
+  <g transform="rotate(-16 74 80)">
+    <path d="M39 30c-21 20-19 64 5 83 23 19 58 13 72-13 14-25 3-58-24-70-18-8-39-8-53 0Z" fill="#f5cf33" stroke="#111" stroke-width="6"/>
+    <path d="M79 109 103 140" fill="none" stroke="#111" stroke-linecap="round" stroke-width="17"/>
+    <path d="M79 109 103 140" fill="none" stroke="#d56062" stroke-linecap="round" stroke-width="9"/>
+    <circle cx="58" cy="47" r="4" fill="#111"/><circle cx="75" cy="43" r="4" fill="#111"/><circle cx="91" cy="52" r="4" fill="#111"/>
+    <circle cx="48" cy="64" r="4" fill="#111"/><circle cx="66" cy="65" r="4" fill="#111"/><circle cx="84" cy="68" r="4" fill="#111"/><circle cx="100" cy="72" r="4" fill="#111"/>
+    <circle cx="54" cy="83" r="4" fill="#111"/><circle cx="72" cy="88" r="4" fill="#111"/><circle cx="89" cy="91" r="4" fill="#111"/>
+  </g>
+  <circle cx="126" cy="40" r="16" fill="#ecfbef" stroke="#111" stroke-width="5"/>
+  <path d="M117 34c4 6 13 8 18 2m-18 11c5 5 12 6 18 1" fill="none" stroke="#111" stroke-linecap="round" stroke-width="3"/>
+</svg>

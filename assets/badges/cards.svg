@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-labelledby="title">
+  <title id="title">Playing cards badge</title>
+  <g transform="rotate(-11 65 77)">
+    <rect x="27" y="25" width="74" height="102" rx="7" fill="#fffdf7" stroke="#111" stroke-width="5"/>
+    <text x="37" y="51" fill="#c83d4d" font-family="Georgia, serif" font-size="23" font-weight="700">A</text>
+    <path d="M52 67c12-15 24 0 14 12l-14 16-14-16c-10-12 2-27 14-12Z" fill="#c83d4d"/>
+  </g>
+  <g transform="rotate(11 88 73)">
+    <rect x="57" y="23" width="74" height="102" rx="7" fill="#fffdf7" stroke="#111" stroke-width="5"/>
+    <text x="68" y="49" fill="#1b1b1b" font-family="Georgia, serif" font-size="23" font-weight="700">A</text>
+    <path d="m93 65 15 16-15 16-15-16Z" fill="#1b1b1b"/>
+  </g>
+</svg>
