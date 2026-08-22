@@ -1,0 +1,44 @@
+.project-file {
+  grid-template-columns: 52px 1fr auto;
+  min-height: 112px;
+  padding: 24px 22px;
+}
+
+.project-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  justify-self: center;
+  transition: filter .13s ease;
+}
+
+.project-icon--speed {
+  width: 44px;
+}
+
+.project-file .file-icon {
+  justify-self: center;
+}
+
+.project-file:hover .project-icon,
+.project-file.selected .project-icon {
+  filter: invert(1);
+}
+
+@media (max-width: 480px) {
+  .project-file {
+    grid-template-columns: 30px 1fr;
+    min-height: 0;
+    padding: 11px;
+  }
+
+  .project-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .project-icon--speed {
+    width: 25px;
+  }
+}

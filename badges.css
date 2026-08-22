@@ -1,0 +1,42 @@
+.badge-board { position: relative; width: calc(100% - 12px); min-height: 500px; margin: 0 0 12px; overflow: hidden; border: 2px solid var(--ink); background-color: var(--white); background-image: radial-gradient(#c7c7c7 1.2px, transparent 1.3px); background-size: 16px 16px; box-shadow: 12px 12px 0 var(--ink); }
+
+.badge-button { position: absolute; top: var(--badge-y, 0); left: var(--badge-x, 0); border: 0; padding: 0; background: transparent; cursor: pointer; }
+.badge-button:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.badge { display: block; height: auto; object-fit: contain; filter: drop-shadow(2px 3px 1px rgba(0, 0, 0, .25)); transform: none; }
+.board-pin { position: absolute; z-index: 3; top: calc(50% - var(--pin-offset, 65px)); left: 50%; width: 16px; height: 16px; transform: translate(-50%, -50%); border: 3px solid var(--ink); border-radius: 50%; background: #f7f3e8; box-shadow: 1px 2px 0 var(--ink); cursor: grab; touch-action: none; }
+.badge-button.is-dragging .badge-caption { display: none !important; }
+.badge-button.is-dragging .badge { animation: none !important; }
+.badge-button--placeholder-one { --badge-x: 14%; --badge-y: 24%; }
+.badge-button--placeholder-two { --pin-offset: 61px; --badge-x: 42%; --badge-y: 70%; }
+.badge-button--placeholder-three { --pin-offset: 55px; --badge-x: 21%; --badge-y: 66%; }
+.badge-button--placeholder-four { --pin-offset: 46px; --badge-x: 36%; --badge-y: 25%; }
+.badge-button--placeholder-five { --pin-offset: 68px; --badge-x: 56%; --badge-y: 16%; }
+.badge-button--placeholder-six { --pin-offset: 79px; --badge-x: 63%; --badge-y: 66%; }
+.badge-button--placeholder-seven { --pin-offset: 79px; --badge-x: 75%; --badge-y: 19%; }
+
+.text-badge { display: grid; place-items: center; min-width: 76px; min-height: 76px; border: 3px solid var(--ink); background: #fffdf5; box-shadow: 4px 4px 0 var(--ink); color: var(--ink); font-size: 22px; font-weight: 800; line-height: .88; text-align: center; }
+.text-badge small { margin-top: 8px; padding: 4px; background: var(--ink); color: var(--white); font-size: 7px; font-weight: 800; letter-spacing: -.05em; }
+.text-badge--wide { min-width: 126px; }
+.text-badge--tall { min-height: 96px; }
+.text-badge--ideas { min-width: 68px; min-height: 87px; background: #ed75a9; font-size: 16px; line-height: .8; }
+.text-badge--ideas b { font-size: 27px; }
+.text-badge--build { min-width: 93px; min-height: 66px; background: #f5cf33; font-size: 16px; line-height: 1; }
+.text-badge--build span { display: block; text-align: left; animation: build-cursor 1s step-end infinite; }
+
+.badge-caption { position: absolute; z-index: 5; top: -12px; left: 50%; display: none; width: min(190px, calc(100vw - 40px)); transform: translate(-50%, -100%) rotate(-1.5deg); border: 2px solid var(--ink); background: var(--white); box-shadow: 3px 3px 0 var(--ink); padding: 8px 10px; color: var(--acid); font-size: 11px; font-weight: 800; line-height: 1.35; text-align: center; white-space: normal; pointer-events: none; }
+.badge-button.is-hovered .badge-caption { display: block; position: fixed; left: var(--bubble-x); top: var(--bubble-y); transform: translate(-50%, -50%) rotate(-1.5deg); }
+.badge-button:hover .badge-caption, .badge-button:focus-visible .badge-caption { display: block; }
+.badge-button:hover .badge, .badge-button:focus-visible .badge, .badge-button.is-hovered .badge { transform-origin: top center; animation: badge-swing 1.1s ease-in-out infinite; }
+
+@keyframes badge-swing { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-5deg); } 50% { transform: rotate(4deg); } 75% { transform: rotate(-2deg); } }
+@keyframes build-cursor { 50% { opacity: 0; } }
+
+@media (max-width: 680px) {
+  .badge-board { display: grid; grid-template-columns: repeat(3, minmax(82px, 1fr)); align-items: center; min-height: 440px; }
+  .text-badge--code { min-width: 68px; min-height: 68px; font-size: 19px; }
+  .text-badge--ideas { min-width: 61px; min-height: 76px; }
+  .text-badge--build { min-width: 82px; min-height: 60px; }
+  .badge-caption { font-size: 10px; }
+  .badge-button { position: relative; top: 0; left: 0; justify-self: center; }
+  .board-pin { cursor: default; }
+}

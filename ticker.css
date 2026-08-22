@@ -1,0 +1,7 @@
+.ticker{display:block;overflow:hidden;width:100%;border-bottom:1px solid #555;white-space:nowrap}
+.ticker-track{display:flex;width:max-content;will-change:transform;backface-visibility:hidden;animation:ticker-loop 120s linear infinite}
+.ticker-track span{display:block;flex:none;padding:7px 1.5rem;font-size:10px;font-weight:700;animation:none}
+.between-ticker{margin:0;background:var(--ink);border-top:var(--line);border-bottom:var(--line);color:var(--white);zoom:reset}
+.between-ticker .ticker-track span{padding:13px 1.5rem;font-size:13px;letter-spacing:.18em}
+@keyframes ticker-loop{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+@media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}

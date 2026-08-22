@@ -1,0 +1,33 @@
+.experience {
+  margin-top: 0;
+  padding-top: 70px;
+}
+
+.log-head,
+.log-row {
+  grid-template-columns: minmax(190px, 1fr) minmax(105px, 15%);
+}
+
+.log-row {
+  align-items: start;
+}
+
+.log-row > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.log-row:hover,
+.asset-list a:hover,
+.button:hover,
+.button.solid:hover,
+.neon,
+.project-file.selected em {
+  color: var(--white);
+}
+
+@media (max-width: 800px) {
+  .log-row {
+    grid-template-columns: 1fr;
+  }
+}

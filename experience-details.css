@@ -1,0 +1,41 @@
+.experience-entry > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.experience-entry > summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-entry[open] > .log-row {
+  border-bottom: 0;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.experience-detail {
+  border-bottom: var(--line);
+  padding: 0 18px 26px 92px;
+  background: var(--paper);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.experience-detail p {
+  margin: 0;
+}
+
+.experience-detail ul {
+  margin: 13px 0 0;
+  padding-left: 18px;
+}
+
+.experience-detail li + li {
+  margin-top: 6px;
+}
+
+@media (max-width: 800px) {
+  .experience-detail {
+    padding: 0 12px 22px 66px;
+  }
+}

@@ -1,0 +1,22 @@
+.preview-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-index {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 12px;
+  margin: 0;
+}
+
+.preview-art {
+  margin-top: 32px;
+}
+
+.preview-art strong {
+  top: 0;
+  right: 14px;
+}
