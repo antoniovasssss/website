@@ -11,6 +11,18 @@
   object-fit: contain;
 }
 
+.org-logo-link {
+  align-self: center;
+  display: block;
+  width: 52px;
+  height: 52px;
+}
+
+.org-logo-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
 .org-logo--placeholder {
   display: grid;
   place-items: center;
